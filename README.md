@@ -1,7 +1,9 @@
 # My Kaggle Camera Model Identification 
 
 A transfer learning for camera model classification
-This code is modified on [Andres Torrubia]（https://github.com/antorsae/sp-society-camera-model-identification）， his work is awesome!
+This code is modified on [Andres Torrubia'repo](https://github.com/antorsae/sp-society-camera-model-identification)
+
+his work is awesome!
 
 ## Requirements
 TensorFlow 1.2
@@ -12,6 +14,7 @@ CUDA9 cuDNN7
 
 ## Running
 I tried several models which has released by [fchollet](https://github.com/fchollet/deep-learning-models/releases)
+
 My parameters 
 
     python train-densenet.py -g 1 -b 8 -cs 224 -cm densenet -l 1e-4 -uiw -x
